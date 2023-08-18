@@ -1,0 +1,111 @@
+.form {
+    border-top: 0cqi;
+    border-color: black;
+    padding: 10%;
+    padding-top: 5%
+}
+body { 
+    background: ;
+    }
+    
+    
+.input, ::-webkit-input-placeholder{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    font-size: 50px;
+    font-family: 'frozen', serif;
+    color:white;
+    margin: 15px
+    
+  }
+    
+  button {
+    border-radius: 30px;
+    padding:20px;
+    width: 300px;
+    margin-top: 25px; 
+    margin-right: 25px; 
+    font-size: x-large;
+    border: none;
+   color: powderblue;
+   background-color: rgb(101, 101, 182);
+   font-family: 'frozen', serif;
+
+}
+.error h1{
+    color: ;
+}
+    .todo-container {
+        background: rgb(41, 33, 33);
+        width: 80vw;
+        margin: 10em auto;
+        border-radius: 15px;
+        padding: 50px 10px;
+        color: white;
+        border: 3px solid rgb(36, 110, 194);
+      }
+      
+    input[type=checkbox]:checked + .task {
+        color:lightblue;
+        text-decoration: line-through;
+       
+      } 
+    
+    .task{
+        margin-left: 15px;
+    }
+    
+    
+      .task::placeholder {
+        color: black;
+        font-size: smaller;
+    }
+    
+    
+      .taskBox {
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 50px;
+        margin: 15px;
+        display: flex;
+        justify-content: center;
+       
+       
+      }
+    
+ 
+    
+          /* File: src/components/Todo.css */
+        
+       .tasks{
+        font-size: 30px;
+        padding: 40px;
+        margin-bottom: 60px;
+       }
+         
+         /* .task {
+            border: 1px solid white;
+            border-radius: 5px;
+            padding: 50px;
+            margin: 15px;
+          } 
+            */
+          
+          .header {
+            margin: 0.5em;
+            font-size: 2em;
+            text-align: center;
+          }
+          
+          .create-task input[type=text] {
+            margin: 2.5em 2em;
+            width: 80%;
+            outline: none;
+            border: none;
+            padding: 0.7em;
+          }
