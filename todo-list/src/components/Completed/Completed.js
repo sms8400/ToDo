@@ -1,11 +1,19 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+// import ToDoList from '../ToDo/ToDoList'
+// import CompeletedList from '../ToDo/CompeletedList'
 
-function Completed() {
+function Completed({tasks, task, filter,setFilter}) {
+
+    
   return (
-    <div>Completed
-    <Link to="/todolist"> back </Link>
+    <div>
+    
 
+    
+        <Link to="/todolist"> back </Link>
+
+{/* <CompeletedList /> */}
     </div>
   )
 }
