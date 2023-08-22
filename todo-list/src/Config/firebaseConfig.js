@@ -6,9 +6,13 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+import { getAuth } from "firebase/auth";
+
 const firebaseConfig = {
   apiKey: "AIzaSyDBRswobZOSuqfHXlEu4INOXbP90h40HLI",
   authDomain: "to-do-57b97.firebaseapp.com",
+  databaseURL: "https://to-do-57b97-default-rtdb.firebaseio.com",
   projectId: "to-do-57b97",
   storageBucket: "to-do-57b97.appspot.com",
   messagingSenderId: "252356972916",
@@ -19,3 +23,6 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+
+export const auth = getAuth(app);
+export default app;
