@@ -8,23 +8,7 @@ import Completed from '../Completed/Completed'
 
 function ToDoList({value}){
 
-    const [tasks, setTasks] = useState([
-        // {
-        //     id: 1,
-        //     title: "Grab some Pizza",
-        //     completed: true
-        // },
-        // {
-        //     id: 2,
-        //     title: "Do your workout",
-        //     completed: true
-        // },
-        // {
-        //     id: 3,
-        //     title: "Hangout with friends",
-        //     completed: false
-        // }
-    ]);
+   const [tasks, setTasks] =useState([]);
     
     const addTask = title => {
         const newTasks = [...tasks, { id: tasks.length + 1, title, completed: false }];
